@@ -1,0 +1,16 @@
+server:
+  port: 8081
+
+spring:
+  datasource:
+    url: jdbc:postgresql://db:5432/mailing_db
+    username: user
+    password: pass
+  jpa:
+    hibernate:
+      ddl-auto: create
+
+telegram:
+  bot:
+    token: 7844936390:AAGzV72J-s_5IH9Tjw2dwrZJJKcJET81n7Y
+    username: utm_test_bot
